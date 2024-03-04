@@ -5,7 +5,6 @@
   <form action="/action_page.html">
   <fieldset>
   <legend><b>Formulário Matricula de Curso</b></legend>
-  <form>
   <label for="fname">Primeiro nome:</label><br>
   <input type="text" id="Pname" name="fname" value=""><br>
   <label for="fname">Segundo nome:</label><br>
@@ -14,7 +13,7 @@
       <input type="radio" id="html" name="fav_language" value="HTML">
       <label for="html">Tecnico em Informática</label><br>
       <input type="radio" id="html" name="fav_language" value="HTML">
-      <label for="html">Graduação-Analise e desenvolvimento de sistemas</label><br>
+      <label for="html">Graduação-Analise e desenvolvimento de sistemas</label<br>
       <input type="radio" id="html" name="fav_language" value="HTML">
       <label for="html">Profissionalizante-Programação web</label><br>
       <h3>Linguagens de programação de sua preferência:</h3>
@@ -37,9 +36,10 @@
       <option value="Chapecó">
       <option value="Narnia">
       <option value="Xanxerê">
-        <input type="submit" value="Enviar">
-      </datalist>
-  </form>
+      </datalist><br>
+    
+    <br><input type="submit" value="Enviar">
+  
 </fieldset>
 </form>
   

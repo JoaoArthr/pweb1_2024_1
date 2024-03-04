@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+ 
+<body>
+  <form action="/action_page.html">
+  <fieldset>
+  <legend><b>Formulário Matricula de Curso</b></legend>
+  <form>
+  <label for="fname">Primeiro nome:</label><br>
+  <input type="text" id="Pname" name="fname" value=""><br>
+  <label for="fname">Segundo nome:</label><br>
+  <input type="text" id="Sname" name="fname" value=""><br>
+      <h3>Curso:</h3>
+      <input type="radio" id="html" name="fav_language" value="HTML">
+      <label for="html">Tecnico em Informática</label><br>
+      <input type="radio" id="html" name="fav_language" value="HTML">
+      <label for="html">Graduação-Analise e desenvolvimento de sistemas</label><br>
+      <input type="radio" id="html" name="fav_language" value="HTML">
+      <label for="html">Profissionalizante-Programação web</label><br>
+      <h3>Linguagens de programação de sua preferência:</h3>
+      <input type="checkbox" id="PHP" name="PHP1" value="">
+      <label for="PHP"> PHP </label><br>
+      <input type="checkbox" id="Java" name="Java1" value="">
+      <label for="Java"> Java </label><br>
+      <input type="checkbox" id="Phyton" name="Phyton1" value="">
+      <label for="Phyton"> Phyton </label><br>
+      <br><b><label for="turnos"> Escolha um Turno:</label></b>
+      <br><input list="turnos" name="turno" id="turno">
+      <datalist id="turnos">
+      <option value="Manhã">
+      <option value="tarde">
+      <option value="Noite">
+      </datalist><br>
+      <br><b><label for="unidades"> Escolha a Unidade mais proximo a você:</label></b>
+      <br><input list="Unidades" name="unidade" id="unidade">
+      <datalist id="Unidades">
+      <option value="Chapecó">
+      <option value="Narnia">
+      <option value="Xanxerê">
+        <input type="submit" value="Enviar">
+      </datalist>
+  </form>
+</fieldset>
+</form>
+  
+  
+</body>
+
+</html>
